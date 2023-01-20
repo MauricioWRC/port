@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: wheat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3em;
+    background-image: linear-gradient( 5deg ,black, gray);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+header{
+    height: 10vh;
+    width: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.entrada{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    box-shadow: 0px 0px 30px -5px black;
+    border-radius: 20px;
+    margin: 1em;
+}
+
+.infosG{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.infos{
+    border: 2px black solid;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px 5px gray;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.infos *{
+    margin: .5em;
+}
+
+#foto{
+    width: 20em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px black;
+}
+
+.projetos{
+    height: 200vh;
+    width: 95%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 10px 30px -10px black;
+}
+.div{
+    width: 95%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgb(0, 39, 24);
+    border-radius: 20px;
+}
+
+.proj{
+    height: 80%;
+    width: 30%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+}
+#Portfolios1{
+    background-color: #139fda;
+}
+
+#Portfolios2{
+    background-color: #f7df1e;
+}
+
+#Portfolios3{
+    background: linear-gradient( 45deg ,#346c9d 20%, #ffd94a 80%)
+}
+
+
+footer{
+    margin: 1em;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
